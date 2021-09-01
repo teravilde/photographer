@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	width: 1100px
+	margin:0 auto;
+	padding: 20px;
+}
+h2{
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	padding: 20px 20px;
+	cursor: pointer;
+
+}
+a{
+	text-decoration:none;
+	color: #000;
+}
+.wrapper{
+	display: flex;
+	justify-content:space-between;
+}
+.galery_column_first, .galery_column_second, .galery_column_third {
+	
+	margin: 15px 15px;
+	width: 420px;
+
+}
+.galery{
+	display: flex;
+	justify-content:space-between;
+}
+img	{
+	width: 100%;
+	box-shadow: 8px 8px 10px #808080;
+	margin-top: 10px;
+}
+
+* {
+  box-sizing: border-box
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.popup:not(:target) {
+  display: none;
+}
+
+.popup:target {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: #fff;
+}
+.full_img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 900px;
+  box-shadow: none;
+
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.eugenia{
+
+	width: 400px;
+	margin : 10px;
+}
+.aboutme{
+	display: flex;
+	justify-content: center;
+}
+.about{
+	margin: 10px;
+}
+
